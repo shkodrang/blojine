@@ -7,4 +7,5 @@
   :ring {:handler blojine.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
-                        [ring-mock "0.1.5"]]}})
+                        [ring-mock "0.1.5"]
+                        [com.novemberain/monger "1.7.0"]]}})
